@@ -22,4 +22,4 @@ if(outcome %in% list("heart attack","heart failure","pneumonia")) {
 	message("invalid outcome") }
                  
 }
-best("AL","heart_attack")
+
