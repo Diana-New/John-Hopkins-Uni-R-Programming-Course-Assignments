@@ -1,4 +1,4 @@
-rankhospital <- function(state, outcome, num = "best") {
+rankhospital <- function(state, outcome, num = "best") {                         ## This function trys to figure out the hostpital ranking in a specific US state
         if(!outcome %in% list("heart attack","heart failure","pneumonia")){
                 stop("invalid outcome")} else {
                 ## Read outcome data        
